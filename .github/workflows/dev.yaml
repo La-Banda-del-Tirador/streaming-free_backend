@@ -22,8 +22,8 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t ghcr.io/La-Banda-del-Tirador/test:latest -f dev.Dockerfile .
+          docker build -t ghcr.io/la-banda-del-tirador/test:latest -f dev.Dockerfile .
 
       - name: Push Docker image
         run: |
-          docker push ghcr.io/La-Banda-del-Tirador/test:latest
+          docker push ghcr.io/la-banda-del-tirador/test:latest
