@@ -21,8 +21,8 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t <DOCKER_USERNAME>/<NOMBRE_IMAGEN>:latest -f dev.Dockerfile .
+          docker build -t alvarto1296/backend:latest -f dev.Dockerfile .
 
       - name: Push Docker image to Docker Hub
         run: |
-          docker push <DOCKER_USERNAME>/<NOMBRE_IMAGEN>:latest
+          docker push alvarto1296/backend:latest
